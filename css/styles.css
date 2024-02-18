@@ -2852,13 +2852,13 @@ textarea {
     transition: .15s cubic-bezier(.4, 0, 1, 1)
 }
 
-.menu-cont .relav .logo-cont svg .levector-hover,
+.menu-cont .relav .logo-cont svg .bos11-hover,
 .menu-cont .relav .logo-cont svg .napkin-hover.active {
     fill: #fff;
     transition: .15s cubic-bezier(.4, 0, 1, 1)
 }
 
-.menu-cont .relav .logo-cont svg .levector-hover.active {
+.menu-cont .relav .logo-cont svg .bos11-hover.active {
     fill: #ff5100;
     transition: .15s cubic-bezier(.4, 0, 1, 1)
 }
@@ -7896,35 +7896,35 @@ textarea {
     transform: translate3d(0, 80px, 0)
 }
 
-[data-controller=index] .banner-cont .video-slide#levector-vid1 {
+[data-controller=index] .banner-cont .video-slide#bos11-vid1 {
     height: 100vh
 }
 
-[data-controller=index] .banner-cont .video-slide#levector-vid1 .plyr {
+[data-controller=index] .banner-cont .video-slide#bos11-vid1 .plyr {
     display: block
 }
 
-[data-controller=index] .banner-cont .video-slide#levector-vid2 {
+[data-controller=index] .banner-cont .video-slide#bos11-vid2 {
     height: 100vh
 }
 
-[data-controller=index] .banner-cont .video-slide#levector-vid2 .plyr {
+[data-controller=index] .banner-cont .video-slide#bos11-vid2 .plyr {
     display: block
 }
 
-[data-controller=index] .banner-cont .video-slide#levector-vid3 {
+[data-controller=index] .banner-cont .video-slide#bos11-vid3 {
     height: 100vh
 }
 
-[data-controller=index] .banner-cont .video-slide#levector-vid3 .plyr {
+[data-controller=index] .banner-cont .video-slide#bos11-vid3 .plyr {
     display: block
 }
 
-[data-controller=index] .banner-cont .video-slide#levector-vid4 {
+[data-controller=index] .banner-cont .video-slide#bos11-vid4 {
     height: 100vh
 }
 
-[data-controller=index] .banner-cont .video-slide#levector-vid4 .plyr {
+[data-controller=index] .banner-cont .video-slide#bos11-vid4 .plyr {
     display: block
 }
 

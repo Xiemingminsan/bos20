@@ -10018,7 +10018,7 @@
             return (
               '  <div class="column">\n    <div class="video-ind">\n      <img src="' +
               s(o(null != t ? a(t, "img") : t, t)) +
-              '" alt="Levector">\n      <a href="/player/' +
+              '" alt="bos11">\n      <a href="/player/' +
               s(o(null != t ? a(t, "uri") : t, t)) +
               "/" +
               s(o(null != t ? a(t, "slang") : t, t)) +
@@ -26886,10 +26886,10 @@
             (e.textContent = JSON.stringify({
               "@context": "https://schema.org",
               "@type": "Organization",
-              name: "Levector",
-              alternateName: "Levector Productora Audiovisual",
-              url: "https://levector.com/",
-              logo: "https://levector.com/img/gimage.png",
+              name: "bos11",
+              alternateName: "bos11 Productora Audiovisual",
+              url: "https://bos11.com/",
+              logo: "https://bos11.com/img/gimage.png",
               contactPoint: {
                 "@type": "ContactPoint",
                 telephone: "+59345106896",
@@ -26898,19 +26898,19 @@
                 availableLanguage: ["es", "en"],
               },
               sameAs: [
-                "https://www.facebook.com/levector/",
-                "https://twitter.com/Levector2",
-                "https://www.instagram.com/levector/",
+                "https://www.facebook.com/bos11/",
+                "https://twitter.com/bos112",
+                "https://www.instagram.com/bos11/",
                 "https://www.youtube.com/channel/UCB6oYz6sFQaa7O540dENwqQ",
-                "https://www.linkedin.com/company/levector/",
-                "https://levector.com/",
+                "https://www.linkedin.com/company/bos11/",
+                "https://bos11.com/",
               ],
             })),
               document.head.appendChild(e),
               Splitting(),
-              gsap.set("#levector-vid1 .word", { duration: 0, y: 100 }),
-              gsap.set("#levector-vid3 .word", { duration: 0, y: 100 }),
-              gsap.set("#levector-vid4 .word", { duration: 0, y: 100 }),
+              gsap.set("#bos11-vid1 .word", { duration: 0, y: 100 }),
+              gsap.set("#bos11-vid3 .word", { duration: 0, y: 100 }),
+              gsap.set("#bos11-vid4 .word", { duration: 0, y: 100 }),
               $(window).width() <= 768
                 ? ((i = new Splide("#splide-index", {
                     type: "fade",
@@ -26923,11 +26923,11 @@
                   }).mount()),
                   i.on("moved", function (e) {
                     0 === e &&
-                      (gsap.set("#levector-vid1 .word, #levector-vid3 .word", {
+                      (gsap.set("#bos11-vid1 .word, #bos11-vid3 .word", {
                         duration: 0,
                         y: 100,
                       }),
-                      gsap.to("#levector-vid2 .word", {
+                      gsap.to("#bos11-vid2 .word", {
                         duration: 0.8,
                         delay: 0,
                         ease: "expo.out",
@@ -26936,10 +26936,10 @@
                       })),
                       1 === e &&
                         (gsap.set(
-                          "#levector-vid2 .word, #levector-vid3 .word",
+                          "#bos11-vid2 .word, #bos11-vid3 .word",
                           { duration: 0, y: 100 }
                         ),
-                        gsap.to("#levector-vid1 .word", {
+                        gsap.to("#bos11-vid1 .word", {
                           duration: 0.8,
                           delay: 0,
                           ease: "expo.out",
@@ -26948,10 +26948,10 @@
                         })),
                       2 === e &&
                         (gsap.set(
-                          "#levector-vid2 .word, #levector-vid3 .word",
+                          "#bos11-vid2 .word, #bos11-vid3 .word",
                           { duration: 0, y: 100 }
                         ),
-                        gsap.to("#levector-vid3 .word", {
+                        gsap.to("#bos11-vid3 .word", {
                           duration: 0.8,
                           delay: 0,
                           ease: "expo.out",
@@ -26960,10 +26960,10 @@
                         })),
                       3 === e &&
                         (gsap.set(
-                          "#levector-vid3 .word, #levector-vid4 .word",
+                          "#bos11-vid3 .word, #bos11-vid4 .word",
                           { duration: 0, y: 100 }
                         ),
-                        gsap.to("#levector-vid4 .word", {
+                        gsap.to("#bos11-vid4 .word", {
                           duration: 0.8,
                           delay: 0,
                           ease: "expo.out",
@@ -26981,11 +26981,11 @@
                   }).mount()),
                   i.on("moved", function (e) {
                     0 === e &&
-                      (gsap.set("#levector-vid1 .word, #levector-vid3 .word", {
+                      (gsap.set("#bos11-vid1 .word, #bos11-vid3 .word", {
                         duration: 0,
                         y: 100,
                       }),
-                      gsap.to("#levector-vid2 .word", {
+                      gsap.to("#bos11-vid2 .word", {
                         duration: 0.8,
                         delay: 0,
                         ease: "expo.out",
@@ -26994,10 +26994,10 @@
                       })),
                       1 === e &&
                         (gsap.set(
-                          "#levector-vid2 .word, #levector-vid3 .word",
+                          "#bos11-vid2 .word, #bos11-vid3 .word",
                           { duration: 0, y: 100 }
                         ),
-                        gsap.to("#levector-vid1 .word", {
+                        gsap.to("#bos11-vid1 .word", {
                           duration: 0.8,
                           delay: 0,
                           ease: "expo.out",
@@ -27006,10 +27006,10 @@
                         })),
                       2 === e &&
                         (gsap.set(
-                          "#levector-vid2 .word, #levector-vid1 .word",
+                          "#bos11-vid2 .word, #bos11-vid1 .word",
                           { duration: 0, y: 100 }
                         ),
-                        gsap.to("#levector-vid3 .word", {
+                        gsap.to("#bos11-vid3 .word", {
                           duration: 0.8,
                           delay: 0,
                           ease: "expo.out",
@@ -27018,10 +27018,10 @@
                         })),
                       3 === e &&
                         (gsap.set(
-                          "#levector-vid3 .word, #levector-vid4 .word",
+                          "#bos11-vid3 .word, #bos11-vid4 .word",
                           { duration: 0, y: 100 }
                         ),
-                        gsap.to("#levector-vid4 .word", {
+                        gsap.to("#bos11-vid4 .word", {
                           duration: 0.8,
                           delay: 0,
                           ease: "expo.out",
@@ -27224,7 +27224,7 @@
                 e.lastIndexOf("/")
               ),
               n = e.split("/").pop();
-            (document.title = "Levector | " + decodeURIComponent(n)),
+            (document.title = "bos11 | " + decodeURIComponent(n)),
               (async function (e) {
                 let t = "";
                 return (
@@ -27251,7 +27251,7 @@
               ),
               $('meta[property="og:title"]').attr(
                 "content",
-                decodeURIComponent(n) + " - Levector"
+                decodeURIComponent(n) + " - bos11"
               ),
               $('meta[property="og:url"]').attr("content", e),
               $('meta[property="og:description"]').attr(
@@ -27260,7 +27260,7 @@
               ),
               $('meta[property="og:site_name"]').attr(
                 "content",
-                decodeURIComponent(n) + " - Levector"
+                decodeURIComponent(n) + " - bos11"
               ),
               $('meta[name="twitter:description"]').attr(
                 "content",
@@ -27268,7 +27268,7 @@
               ),
               $('meta[name="twitter:title"]').attr(
                 "content",
-                decodeURIComponent(n) + " - Levector"
+                decodeURIComponent(n) + " - bos11"
               ),
               $("#vimeo-frame").attr("data-plyr-embed-id", t);
             let i = new Plyr("#vimeo-frame", {
@@ -27399,23 +27399,23 @@
                 } catch (e) {}
                 (u = new Date(e.sys.createdAt).toLocaleDateString("es-ES")),
                   (d = (0, a.a)(h)),
-                  (document.title = t + " - Levector"),
+                  (document.title = t + " - bos11"),
                   $("meta[name='description']").attr("content", n),
                   $('meta[property="og:title"]').attr(
                     "content",
-                    t + " - Levector"
+                    t + " - bos11"
                   ),
                   $('meta[property="og:image"]').attr("content", i),
                   $('meta[property="og:description"]').attr("content", n),
                   $('meta[property="og:site_name"]').attr(
                     "content",
-                    t + " - Levector"
+                    t + " - bos11"
                   ),
                   $('meta[name="twitter:image"]').attr("content", i),
                   $('meta[name="twitter:description"]').attr("content", n),
                   $('meta[name="twitter:title"]').attr(
                     "content",
-                    t + " - Levector"
+                    t + " - bos11"
                   );
                 const p = document.createElement("script");
                 p.setAttribute("type", "application/ld+json");
@@ -27427,10 +27427,10 @@
                   author: { "@type": "Person", name: l },
                   publisher: {
                     "@type": "Organization",
-                    name: "Levector",
+                    name: "bos11",
                     logo: {
                       "@type": "ImageObject",
-                      url: "https://levector.com/img/gimage.png",
+                      url: "https://bos11.com/img/gimage.png",
                     },
                   },
                   datePublished: new Date(e.sys.createdAt).toISOString(),
@@ -27626,23 +27626,23 @@
               try {
                 t = `https:${r.fields.archivo.fields.file.url}`;
               } catch (e) {}
-              (document.title = o + " - Levector"),
+              (document.title = o + " - bos11"),
                 $("meta[name='description']").attr("content", s),
                 $('meta[property="og:title"]').attr(
                   "content",
-                  o + " - Levector"
+                  o + " - bos11"
                 ),
                 $('meta[property="og:image"]').attr("content", l),
                 $('meta[property="og:description"]').attr("content", s),
                 $('meta[property="og:site_name"]').attr(
                   "content",
-                  o + " - Levector"
+                  o + " - bos11"
                 ),
                 $('meta[name="twitter:image"]').attr("content", l),
                 $('meta[name="twitter:description"]').attr("content", s),
                 $('meta[name="twitter:title"]').attr(
                   "content",
-                  o + " - Levector"
+                  o + " - bos11"
                 );
               let h = new Image();
               (h.onload = function () {
@@ -27784,7 +27784,7 @@
           r = n.n(i);
         const o = class extends Controller {
           connect() {
-            document.getElementById("reel_player_levector").play();
+            document.getElementById("reel_player_bos11").play();
             let e = 1;
             const t = "5973125";
             let n = !1;
@@ -34224,8 +34224,8 @@
             paused: !0,
             onComplete: function () {
               $(".load-cont").addClass("back"),
-                $("#levector-vid2").length &&
-                  gsap.to("#levector-vid2 .word", {
+                $("#bos11-vid2").length &&
+                  gsap.to("#bos11-vid2 .word", {
                     duration: 0.8,
                     delay: 0,
                     ease: "expo.out",
@@ -44391,12 +44391,12 @@
                 Wt()(".napkin-hover").removeClass("active");
               },
             }),
-            Wt()("#levector-square").on({
+            Wt()("#bos11-square").on({
               mouseenter: function () {
-                Wt()(".levector-hover").addClass("active");
+                Wt()(".bos11-hover").addClass("active");
               },
               mouseleave: function () {
-                Wt()(".levector-hover").removeClass("active");
+                Wt()(".bos11-hover").removeClass("active");
               },
             });
         }),
