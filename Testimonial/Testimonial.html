@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <script src="assets/Swiper.js"></script>
+    <link href="assets/Swiper.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="responsive-container-block bg">
+        <p class="text-blk title">
+            Testimonials
+        </p>
+        <div class="text-blk introPara">
+            At BOS 10 Production, our work speaks for itself, but our clients' testimonials say it best. See what they have to say about our top-notch photo and video production services. From captivating visuals to seamless execution, our team takes pride in exceeding expectations and creating lasting memories for our valued clients
+        </div>
+        <div class="btn">
+            <div class="container-block swiper-button-prevs">
+                <img class="image-block pagination-button" src="assets/left.png">
+
+            </div>
+            <div class="container-block swiper-button-nexts">
+                <img class="image-block pagination-button" src="assets/right.png">
+            </div>
+        </div>
+        <div class="swiper-container mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="responsive-container-block content">
+                        <p class="text-blk quotes">
+                            “
+                        </p>
+                        <img class="profile-img" src="assets/placeholder.svg">
+                        <p class="text-blk info">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus elementum magna ut duis
+                            pulvinar tincidunt vivamus adipiscing quam. Eget dui quis etiam sed eget sed est.
+                        </p>
+                        <img class="image-block review" src="assets/4star.png">
+                        <p class="text-blk name">
+                            Jane Doe
+                        </p>
+                        <p class="text-blk desig">
+                            CEO
+                        </p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="responsive-container-block content">
+                        <p class="text-blk quotes">
+                            “
+                        </p>
+                        <img class="profile-img image-block" src="assets/placeholder.svg">
+                        <p class="text-blk info">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus elementum magna ut duis
+                            pulvinar tincidunt vivamus adipiscing quam. Eget dui quis etiam sed eget sed est.
+                        </p>
+                        <img class="image-block review" src="assets/4star.png">
+                        <p class="text-blk name">
+                            Jane Doe
+                        </p>
+                        <p class="text-blk desig">
+                            CEO
+                        </p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="responsive-container-block content">
+                        <p class="text-blk quotes">
+                            “
+                        </p>
+                        <img class="profile-img" src="assets/placeholder.svg">
+                        <p class="text-blk info">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus elementum magna ut duis
+                            pulvinar tincidunt vivamus adipiscing quam. Eget dui quis etiam sed eget sed est.
+                        </p>
+                        <img class="image-block review" src="assets/4star.png">
+                        <p class="text-blk name">
+                            Jane Doe
+                        </p>
+                        <p class="text-blk desig">
+                            CEO
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination container-block">
+            </div>
+        </div>
+
+        <script>
+            var swiper = new Swiper(".mySwiper", {
+                slidesPerView: 3,
+                spaceBetween: 5,
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                },
+                navigation: {
+                    nextEl: ".swiper-button-nexts",
+                    prevEl: ".swiper-button-prevs",
+                },
+                mousewheel: true,
+                keyboard: true,
+                loop: true,
+                breakpoints: {
+
+                    300: {
+                        slidesPerView: 1
+                    },
+
+                    501: {
+                        slidesPerView: 1
+                    },
+
+                    769: {
+                        slidesPerView: 3,
+                        spaceBetween: 10
+                    },
+                    1025: {
+                        slidesPerView: 3,
+                        spaceBetween: 10
+                    },
+                }
+            });
+        </script>
+    </div>
+</body>
+
+</html>
