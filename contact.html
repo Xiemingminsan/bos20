@@ -27,8 +27,7 @@
 	<link rel="stylesheet" href="Footer/style.css">
 </head>
 
-<body>
-
+<div id="particles-js"> </div>
 	<body style="background-color: rgb(10, 6, 17); ">
 		<h1 class="sitle-site">BOS10 film production company | Films, Videos, digital content and
 			Motion Graphics | Canada</h1>
@@ -41,41 +40,49 @@
 							stroke: #FFFFFF;
 							stroke-miterlimit: 10;
 						}
-	
+
 						.st1 {
 							fill: #FFFFFF;
 						}
-	
+
 						.st2 {
 							fill: #FFFFFF;
 							stroke: #FFFFFF;
 							stroke-width: 2;
 							stroke-miterlimit: 10;
 						}
-	
+
 						.st3 {
 							fill: transparent;
 						}
-	
+
 						.logo-cont img {
-							display: block; /* This will ensure the logo is block-level so you can center it if needed */
-							max-width: 200px; /* Adjust the max-width as necessary */
-							height: auto; /* This will ensure that the aspect ratio is maintained */
-							margin: 0 auto; /* This centers the logo horizontally */
-						  }
-					</style>
+							display: block;
+							/* This will ensure the logo is block-level so you can center it if needed */
+							max-width: 200px;
+							/* Adjust the max-width as necessary */
+							height: auto;
+							/* This will ensure that the aspect ratio is maintained */
+							margin: 0 auto;
+							/* This centers the logo horizontally */
+						}@font-face {
+							font-family: 'miad';
+							/* Give a name to your font */
+							src: url('fonts/GothamPro-Black.ttf');
+							/* Path to the font file */
+						}
+
+				</style>
+				<g>
 					<g>
 						<g>
 							<g>
-								<g>
-									<a href="index.html"><img src="../BOS10/Footer/assets/bos10.svg" alt="sdfg"> </a>
-									
-								</g>
+								<a href="index.html" class="bos10Top"
+										style="color: #ff5100; font-size: 35px; font-family: 'miad'  ;">BOS 10</a>s
 							</g>
-								
-							</a>
 						</g>
 					</g>
+				</g>
 				</div>
 				<br><br>
 				<div class="menu-options">
@@ -147,7 +154,7 @@
 				</div>
 			</div>
 		</div>
-		</div>
+	
 
 
 		<div data-scroll-container>
@@ -156,11 +163,11 @@
 					<div class="columns">
 						<div class="column">
 							<div class="cent">
-								<h2 style="color: rgb(205, 65, 0); font-style: bold;">Contact details</h2>
-								<h6>Feel free to reach out to know more about us and our trusted video production
-									commpany!
+								<h2 style="color: rgb(205, 65, 0); font-style: bold;">Contact Details</h2>
+								<h6>Feel free to reach out to know more about us and our trusted film production
+									company!
 								</h6>
-								<p><span>Address</span><br><b>Canada</b> Scarborough </b> <br>27 Casebridge Ct ON <b>M1B
+								<p><span>Address</span><br><b>Canada, Scarborough </b> <br>27 Casebridge Ct ON <b>M1B
 										4Y4</b></p>
 								<a class="location_icon" style="width: 200px; "
 									href="https://maps.app.goo.gl/UWwBb5mijwgPuJzU9">
@@ -223,7 +230,7 @@
 								</a>
 
 								<a href="mailto: bos10production@gmail.com " class="email">
-									<span>Mail: bos10production@gmail.com</span>
+									<span><b>Mail:</b> bos10production@gmail.com</span>
 									<img src="assets/gmail.svg" alt="Gmail Icon">
 								</a>
 
@@ -238,13 +245,9 @@
 
 				<style>
 					#map {
-						
 						height: 500px;
-						/* Adjust as needed */
 						width: 100%;
-						/* Adjust as needed */
-						border: 0;
-						
+						border-radius: 15px;
 					}
 				</style>
 
@@ -253,13 +256,13 @@
 				</div>
 				<script>
 					// Initialize the map
-					var map = L.map('map').setView([43.8092004,-79.2026685], 16);
+					var map = L.map('map').setView([43.8092004, -79.2026685], 16);
 
 					// Add the OpenStreetMap tile layer
 					L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {}).addTo(map);
 
 					// Add a marker
-					var marker = L.marker([43.8092004,-79.2026685]).addTo(map);
+					var marker = L.marker([43.8092004, -79.2026685]).addTo(map);
 
 					// Add a popup to the marker
 					var locationName = "Bos 10 Production";
@@ -269,88 +272,92 @@
 
 
 
-</div>
-
-
-
-
-
-				<footer class="footer-sec">
-					<div class="main">
-						<div class="logo row">
-							<div class="footer-header">
-								<div class="logo"><img src="Footer/assets/logo.svg" alt=""></div>
-								<div class="name">BOS 10 Production</div>
-							</div>
-							<div class="logo-des">
-								<p>There are many variations of passages of Lorem Ipsum available, but the majority have
-									suffered
-									alteration
-									in some form, by injected humour.</p>
-
-								<a href="#" class="btn-know">Know More</a>
-							</div>
-
-						</div>
-
-						<div class="office row">
-							<div class="footer-header">
-								<h3>Our Address</h3>
-							</div>
-							<div class="office-des">
-								<p>123 Main Street, Twin Tower building<br> Anytown, Province X1Y 2Z3 <br>Canada </p>
-								<a class="location_icon" href="https://maps.app.goo.gl/UWwBb5mijwgPuJzU9">
-									<img src="Footer/assets/googleMaps.svg" alt="YouTube">
-									<p>Google Maps</p>
-								</a>
-							</div>
-						</div>
-
-						<div class="link row">
-							<div class="footer-header">
-								<h3>Pages</h3>
-							</div>
-
-							<div class="link-des">
-								<a href="index.html" class="footer-links">Home</a>
-								<a href="Services.html" class="footer-links">Services</a>
-								<a href="about.html" class="footer-links">Who We Are</a>
-								<a href="portfolio.html" class="footer-links">Our Work</a>
-								<a href="contact.html" class="footer-links">Contact Us</a>
-							</div>
-
-						</div>
-
-						<div class="newsletter row">
-							<div class="footer-header">
-								<h3>Our Socials</h3>
-							</div>
-
-							<div class="social-grid">
-								<a class="social-icon" href="#">
-									<img src="Footer/assets/youtube.svg" alt="Tiktok">
-									<p>Tiktok</p>
-								</a> <a class="social-icon"
-									href="https://www.instagram.com/bos10_productions?igsh=MW5iNzFvZnphNXhheg==">
-									<img src="Footer/assets/insta.svg" alt="Instagram">
-									<p>Instagram</p>
-								</a> <a class="social-icon"
-									href="https://www.facebook.com/profile.php?id=61556524701461">
-									<img src="Footer/assets/facebook.svg" alt="Facebook">
-									<p>Facebook</p>
-								</a> <a class="social-icon" href="https://www.youtube.com/@bos10production">
-									<img src="Footer/assets/youtube.svg" alt="Youtube">
-									<p>Youtube</p>
-								</a>
-							</div>
-						</div>
-					</div>
-					<div class="copyright">
-						<hr>
-						<p>© Copyright 2024 BOS 10 Productions.</p>
-					</div>
-				</footer>
 			</div>
+
+
+
+
+			<footer class="footer-sec">
+				<div class="main">
+					<div class="logo row">
+						<div class="footer-header">
+							<div class="logo"><img src="Footer/assets/logo.png" alt=""></div>
+							<div class="name">BOS 10 Production</div>
+						</div>
+						<div class="logo-des">
+							<p>Specializing in commercials, films, digital content, and corporate videos. Your vision, our mission.</p>
+
+							<a href="#" class="btn-know">Know More</a>
+						</div>
+
+					</div>
+
+					<div class="office row">
+						<div class="footer-header">
+							<h3>Our Address</h3>
+						</div>
+						<div class="office-des">
+							<p>123 Main Street, Twin Tower building<br> Anytown, Province X1Y 2Z3 <br>Canada
+							</p>
+							<a class="location_icon" target="_blank" href="https://maps.app.goo.gl/UWwBb5mijwgPuJzU9">
+								<img src="Footer/assets/googleMaps.svg" alt="YouTube">
+								<p>Google Maps</p>
+							</a>
+						</div>
+					</div>
+
+					<div class="link row">
+						<div class="footer-header">
+							<h3>Pages</h3>
+						</div>
+
+						<div class="link-des">
+							<a href="index.html" class="footer-links">Home</a>
+							<a href="Services.html" class="footer-links">Services</a>
+							<a href="about.html" class="footer-links">Who We Are</a>
+							<a href="portfolio.html" class="footer-links">Our Work</a>
+							<a href="contact.html" class="footer-links">Contact Us</a>
+						</div>
+
+					</div>
+
+					<div class="newsletter row">
+						<div class="footer-header">
+							<h3>Our Socials</h3>
+						</div>
+
+						<div class="social-grid">
+							<a class="social-icon" target="_blank"
+								href="https://www.instagram.com/bos10_productions?igsh=MW5iNzFvZnphNXhheg==">
+								<img src="Footer/assets/insta.svg" alt="Instagram">
+								<p>Instagram</p>
+							</a> <a class="social-icon" target="_blank"
+								href="https://www.facebook.com/profile.php?id=61556524701461">
+								<img src="Footer/assets/facebook.svg" alt="Facebook">
+								<p>Facebook</p>
+							</a> <a class="social-icon" target="_blank" href="https://www.youtube.com/@bos10production">
+								<img src="Footer/assets/youtube.svg" alt="Youtube">
+								<p>Youtube</p>
+							</a>
+							<a class="social-icon" href="#">
+								<img src="Footer/assets/tiktok.svg" alt="Tiktok">
+								<p>Tiktok</p>
+							</a>
+						</div>
+					</div>
+
+				</div>
+				<div class="copyrighT">
+					<hr>
+					© Copyright 2024 BOS 10 Productions.
+				</div>
+			</footer>
+
+
+
+		</div>
 	</body>
 
+	<script src="js/particles.js"></script>
+<script src="js/app.js"></script>
 </html>

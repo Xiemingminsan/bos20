@@ -34,13 +34,12 @@
 	<link rel="stylesheet" href="Footer/style.css">
 
 
-	 <style>
+	<style>
+		.splide__arrow--next {
+			display: hidden !important;
 
-.splide__arrow--next{
-	display: hidden !important;
-
-}
-	 </style>
+		}
+	</style>
 
 
 
@@ -54,38 +53,37 @@
 
 
 
-<body>
+<div id="particles-js"> </div>
 
-
-	<body style="background-color: rgb(0, 0, 0);">
+<body style="background-color: black;">
 	<h1 class="sitle-site">BOS10 film production company | Films, VIdeos, digital content and
 		Motion Graphics | Canada</h1>
-<div class="load-cont">
+	<div class="load-cont">
 		<div class="bg-color"><img class="load-levector" src="img/load.svg" alt="Bos Load"></div>
 		<div class="layers">
 			<div class="layers__item">
 				<div class="layers__item-img img1"></div>
 			</div>
-			<div class="layers__item">
-				<div class="layers__item-img img2"></div>
-			</div>
-			<div class="layers__item">
-				<div class="layers__item-img img3"></div>
-			</div>
-			<div class="layers__item">
-				<div class="layers__item-img img4"></div>
-			</div>
-			<div class="layers__item">
-				<div class="layers__item-img img5"></div>
-			</div>
-			<div class="layers__item">
-				<div class="layers__item-img img6"></div>
-			</div>
+			<!-- <div class="layers__item">
+					<div class="layers__item-img img2"></div>
+				</div>
+				<div class="layers__item">
+					<div class="layers__item-img img3"></div>
+				</div>
+				<div class="layers__item">
+					<div class="layers__item-img img4"></div>
+				</div>
+				<div class="layers__item">
+					<div class="layers__item-img img5"></div>
+				</div>
+				<div class="layers__item">
+					<div class="layers__item-img img6"></div>
+				</div> -->
 		</div>
 	</div>
 
 
-			
+
 	<div class="menu-cont">
 		<div class="relav">
 
@@ -113,25 +111,57 @@
 					}
 
 					.logo-cont img {
-						display: block; /* This will ensure the logo is block-level so you can center it if needed */
-						max-width: 100px; /* Adjust the max-width as necessary */
-						height: auto; /* This will ensure that the aspect ratio is maintained */
-						margin: 0 auto; /* This centers the logo horizontally */
-					  }
+						display: block;
+						/* This will ensure the logo is block-level so you can center it if needed */
+						max-width: 100px;
+						/* Adjust the max-width as necessary */
+						height: auto;
+						/* This will ensure that the aspect ratio is maintained */
+						margin: 0 auto;
+						/* This centers the logo horizontally */
+					}
+
+					@font-face {
+						font-family: 'miad';
+						/* Give a name to your font */
+						src: url('fonts/GothamPro-Black.ttf');
+						/* Path to the font file */
+					}
+
+
+					@media (max-width: 800px) {
+
+						.text-service {
+							background-color: rgba(0, 0, 0, 0.334);
+							backdrop-filter: blur(10px);
+						}
+
+						.text-service {
+							border-radius: 15px;
+							padding: 10px;
+						}
+
+						.text-service h2 p span {
+							text-align: left !important;
+						}
+					}
 				</style>
+
+
+
 				<g>
 					<g>
 						<g>
 							<g>
-								<a href="index.html"><img src="../BOS10/Footer/assets/bos10.svg" alt="sdfg"> </a>
+								<a href="index.html" class="bos10Top"
+									style="color: #ff5100; font-size: 35px; font-family: 'miad'  ;">BOS 10</a>
 							</g>
-						</g><a href="index.html">
-							
-						</a>
+
+						</g>
 					</g>
 				</g>
 			</div>
-		
+
 			<div class="menu-options">
 				<div class="cent">
 					<a class="menu-li" href="index.html">
@@ -201,7 +231,7 @@
 			</div>
 		</div>
 	</div>
-	</div>
+
 
 
 
@@ -227,18 +257,23 @@
 
 							<li class="splide__slide slide1">
 								<div id="levector-vid2" class="video-slide">
-									<video id="player_banner_2" muted autoplay loop>
-										<source src="img/BoS10 V2.mp4">
+
+
+
+									<video autoplay loop muted playsinline id="player_banner_2">
+										<source src="img/BoS10 V2.mp4" type="video/mp4">
 									</video>
+
 									<div class="filter"></div>
 									<div class="text-service">
 
 										<h2 data-splitting>Bos 10</h2>
 										<h2 data-splitting>
 											<p><span class="word"><b>Film Productions </b></span></p>
-											<p><span class="word" style="text-align: center;"><b><br>We are architects of dreams<br>builders of the imaginary bridges<br> connect the essence of your
-												vision <br>to the hearts of the world. </b></span></p>
-											
+											<p><span class="word" style="text-align: left;"><b><br>We are
+														architects of dreams<br>builders of the imaginary
+														bridges<br> connect the essence of your
+														vision <br>to the hearts of the world. </b></span></p>
 										</h2>
 
 									</div>
@@ -279,7 +314,7 @@
 								their social and digital media platforms. We want to help you create these
 								pieces.</span></p>
 						<div class="btn-hide">
-							<div class="aux-btn"><a href="Services.html#motion" class="button">View More</a></div>
+							<div class="aux-btn"><a href="Services.html#digital" class="button">View More</a></div>
 						</div>
 					</div>
 				</div>
@@ -291,7 +326,7 @@
 								that
 								transcend internationally.</span></p>
 						<div class="btn-hide">
-							<div class="aux-btn"><a href="Services.html#digital" class="button">View More</a></div>
+							<div class="aux-btn"><a href="Services.html#motion" class="button">View More</a></div>
 						</div>
 					</div>
 				</div>
@@ -312,14 +347,6 @@
 
 
 
-
-
-
-
-			<audio loop>
-				<source src="assets/fire.mp3" type="audio/mp3">
-				
-			</audio>
 
 
 
@@ -343,18 +370,11 @@
 				<div class="text-blk introPara">
 					At BOS 10 Production, our work speaks for itself, but our clients' testimonials say it best. See
 					what they have to say about our top-notch photo and video production services. From captivating
-					visuals to seamless execution, our team takes pride in exceeding expectations and creating lasting
+					visuals to seamless execution, our team takes pride in exceeding expectations and creating
+					lasting
 					memories for our valued clients
 				</div>
-				<div class="btn">
-					<div class="container-block swiper-button-prevs">
-						<img class="image-block pagination-button" src="Testimonial/assets/left.png">
 
-					</div>
-					<div class="container-block swiper-button-nexts">
-						<img class="image-block pagination-button" src="Testimonial/assets/right.png">
-					</div>
-				</div>
 				<div class="swiper-container mySwiper">
 					<div class="swiper-wrapper">
 						<div class="swiper-slide">
@@ -362,11 +382,10 @@
 								<p class="text-blk quotes">
 									“
 								</p>
-								<img class="profile-img" src="Testimonial/assets/placeholder.svg">
+								<br><br><br>
 								<p class="text-blk info">
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus elementum magna ut
-									duis
-									pulvinar tincidunt vivamus adipiscing quam. Eget dui quis etiam sed eget sed est.
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus elementum magna
+									ut
 								</p>
 								<img class="image-block review" src="Testimonial/assets/4star.png">
 								<p class="text-blk name">
@@ -382,11 +401,10 @@
 								<p class="text-blk quotes">
 									“
 								</p>
-								<img class="profile-img" src="Testimonial/assets/placeholder.svg">
+								<br><br><br>
 								<p class="text-blk info">
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus elementum magna ut
-									duis
-									pulvinar tincidunt vivamus adipiscing quam. Eget dui quis etiam sed eget sed est.
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus elementum magna
+									ut
 								</p>
 								<img class="image-block review" src="Testimonial/assets/4star.png">
 								<p class="text-blk name">
@@ -402,11 +420,10 @@
 								<p class="text-blk quotes">
 									“
 								</p>
-								<img class="profile-img" src="Testimonial/assets/placeholder.svg">
+								<br><br><br>
 								<p class="text-blk info">
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus elementum magna ut
-									duis
-									pulvinar tincidunt vivamus adipiscing quam. Eget dui quis etiam sed eget sed est.
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus elementum magna
+									ut
 								</p>
 								<img class="image-block review" src="Testimonial/assets/4star.png">
 								<p class="text-blk name">
@@ -422,11 +439,10 @@
 								<p class="text-blk quotes">
 									“
 								</p>
-								<img class="profile-img image-block" src="Testimonial/assets/placeholder.svg">
+								<br><br><br>
 								<p class="text-blk info">
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus elementum magna ut
-									duis
-									pulvinar tincidunt vivamus adipiscing quam. Eget dui quis etiam sed eget sed est.
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus elementum magna
+									ut
 								</p>
 								<img class="image-block review" src="Testimonial/assets/4star.png">
 								<p class="text-blk name">
@@ -437,174 +453,158 @@
 								</p>
 							</div>
 						</div>
-						<div class="swiper-slide">
-							<div class="responsive-container-block content">
-								<p class="text-blk quotes">
-									“
-								</p>
-								<img class="profile-img" src="Testimonial/assets/placeholder.svg">
-								<p class="text-blk info">
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus elementum magna ut
-									duis
-									pulvinar tincidunt vivamus adipiscing quam. Eget dui quis etiam sed eget sed est.
-								</p>
-								<img class="image-block review" src="Testimonial/assets/4star.png">
-								<p class="text-blk name">
-									Jane Doe
-								</p>
-								<p class="text-blk desig">
-									CEO
-								</p>
-							</div>
+
+						<div class="swiper-pagination container-block">
 						</div>
 					</div>
-					<div class="swiper-pagination container-block">
-					</div>
+
+					<script>
+						var swiper = new Swiper(".mySwiper", {
+							slidesPerView: 3,
+							spaceBetween: 5,
+							autoplay: {
+								delay: 3000, // Set the delay in milliseconds (e.g., 3000ms for 3 seconds)
+								disableOnInteraction: false, // Allow interaction (click, swipe) to stop autoplay
+							},
+							speed: 1200,
+							loop: true,
+							breakpoints: {
+
+								300: {
+									slidesPerView: 1
+								},
+
+								501: {
+									slidesPerView: 1
+								},
+
+								769: {
+									slidesPerView: 3,
+									spaceBetween: 10
+								},
+								1025: {
+									slidesPerView: 3,
+									spaceBetween: 10
+								},
+							}
+						});
+					</script>
 				</div>
 
-				<script>
-					var swiper = new Swiper(".mySwiper", {
-						slidesPerView: 3,
-						spaceBetween: 5,
-						pagination: {
-							el: ".swiper-pagination",
-							clickable: true,
-						},
-						navigation: {
-							nextEl: ".swiper-button-nexts",
-							prevEl: ".swiper-button-prevs",
-						},
-						autoplay: {
-							delay: 3000, // Set the delay in milliseconds (e.g., 3000ms for 3 seconds)
-							disableOnInteraction: false, // Allow interaction (click, swipe) to stop autoplay
-						},
-						speed: 1200,
-						mousewheel: false,
-						keyboard: true,
-						loop: true,
-						breakpoints: {
 
-							300: {
-								slidesPerView: 1
-							},
 
-							501: {
-								slidesPerView: 1
-							},
 
-							769: {
-								slidesPerView: 3,
-								spaceBetween: 10
-							},
-							1025: {
-								slidesPerView: 3,
-								spaceBetween: 10
-							},
-						}
-					});
-				</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				<footer class="footer-sec">
+					<div class="main">
+						<div class="logo row">
+							<div class="footer-header">
+								<div class="logo"><img src="Footer/assets/logo.png" alt=""></div>
+								<div class="name">BOS 10 Production</div>
+							</div>
+							<div class="logo-des">
+								<p>Specializing in commercials, films, digital content, and corporate videos. Your
+									vision, our mission</p>
+
+								<a href="#" class="btn-know">Know More</a>
+							</div>
+
+						</div>
+
+						<div class="office row">
+							<div class="footer-header">
+								<h3>Our Address</h3>
+							</div>
+							<div class="office-des">
+								<p>123 Main Street, Twin Tower building<br> Anytown, Province X1Y 2Z3 <br>Canada
+								</p>
+								<a class="location_icon" target="_blank"
+									href="https://maps.app.goo.gl/UWwBb5mijwgPuJzU9">
+									<img src="Footer/assets/googleMaps.svg" alt="YouTube">
+									<p>Google Maps</p>
+								</a>
+							</div>
+						</div>
+
+						<div class="link row">
+							<div class="footer-header">
+								<h3>Pages</h3>
+							</div>
+
+							<div class="link-des">
+								<a href="index.html" class="footer-links">Home</a>
+								<a href="Services.html" class="footer-links">Services</a>
+								<a href="about.html" class="footer-links">Who We Are</a>
+								<a href="portfolio.html" class="footer-links">Our Work</a>
+								<a href="contact.html" class="footer-links">Contact Us</a>
+							</div>
+
+						</div>
+
+						<div class="newsletter row">
+							<div class="footer-header">
+								<h3>Our Socials</h3>
+							</div>
+
+							<div class="social-grid">
+								<a class="social-icon" target="_blank"
+									href="https://www.instagram.com/bos10_productions?igsh=MW5iNzFvZnphNXhheg==">
+									<img src="Footer/assets/insta.svg" alt="Instagram">
+									<p>Instagram</p>
+								</a> <a class="social-icon" target="_blank"
+									href="https://www.facebook.com/profile.php?id=61556524701461">
+									<img src="Footer/assets/facebook.svg" alt="Facebook">
+									<p>Facebook</p>
+								</a> <a class="social-icon" target="_blank"
+									href="https://www.youtube.com/@bos10production">
+									<img src="Footer/assets/youtube.svg" alt="Youtube">
+									<p>Youtube</p>
+								</a>
+								<a class="social-icon" href="#">
+									<img src="Footer/assets/tiktok.svg" alt="Tiktok">
+									<p>Tiktok</p>
+								</a>
+							</div>
+						</div>
+
+					</div>
+					<div class="copyrighT">
+						<hr>
+						© Copyright 2024 BOS 10 Productions.
+					</div>
+				</footer>
+
+
+
 			</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-			<footer class="footer-sec">
-				<div class="main">
-					<div class="logo row">
-						<div class="footer-header">
-							<div class="logo"><img src="Footer/assets/bos10.svg" alt=""></div>
-							<div class="name">BOS 10 Production</div>
-						</div>
-						<div class="logo-des">
-							<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
-								alteration
-								in some form, by injected humour.</p>
-		
-							<a href="#" class="btn-know">Know More</a>
-						</div>
-		
-					</div>
-		
-					<div class="office row">
-						<div class="footer-header">
-							<h3>Our Address</h3>
-						</div>
-						<div class="office-des">
-							<p>123 Main Street, Twin Tower building<br> Anytown, Province X1Y 2Z3 <br>Canada </p>
-							<a class="location_icon" href="https://maps.app.goo.gl/UWwBb5mijwgPuJzU9">
-								<img src="Footer/assets/googleMaps.svg" alt="YouTube">
-								<p>Google Maps</p>
-							</a>
-						</div>
-					</div>
-		
-					<div class="link row">
-						<div class="footer-header">
-							<h3>Pages</h3>
-						</div>
-		
-						<div class="link-des">
-							<a href="index.html" class="footer-links">Home</a>
-							<a href="Services.html" class="footer-links">Services</a>
-							<a href="about.html" class="footer-links">Who We Are</a>
-							<a href="portfolio.html" class="footer-links">Our Work</a>
-							<a href="contact.html" class="footer-links">Contact Us</a>
-						</div>
-		
-					</div>
-		
-					<div class="newsletter row">
-						<div class="footer-header">
-							<h3>Our Socials</h3>
-						</div>
-		
-						<div class="social-grid">
-							<a class="social-icon" href="#">
-								<img src="Footer/assets/youtube.svg" alt="Tiktok">
-								<p>Tiktok</p>
-							</a> <a class="social-icon" href="https://www.instagram.com/bos10_productions?igsh=MW5iNzFvZnphNXhheg==">
-								<img src="Footer/assets/insta.svg" alt="Instagram">
-								<p>Instagram</p>
-							</a> <a class="social-icon" href="https://www.facebook.com/profile.php?id=61556524701461">
-								<img src="Footer/assets/facebook.svg" alt="Facebook">
-								<p>Facebook</p>
-							</a> <a class="social-icon" href="https://www.youtube.com/@bos10production">
-								<img src="Footer/assets/youtube.svg" alt="Youtube">
-								<p>Youtube</p>
-							</a>
-						</div>
-					</div>
-				</div>
-				<div class="copyright">
-					<hr>
-					<p>© Copyright 2024 BOS 10 Productions.</p>
-				</div>
-			</footer>
 		</div>
+
 	</div>
+
 </body>
+
+<script src="js/particles.js"></script>
+<script src="js/app.js"></script>
 
 </html>

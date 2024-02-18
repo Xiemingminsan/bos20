@@ -1105,7 +1105,7 @@ a.plyr__control:before {
 }
 
 .plyr__progress__buffer {
-    -webkit-appearance: none;
+
     background: #0000;
     border: 0;
     border-radius: 100px;
@@ -2032,7 +2032,7 @@ body {
     -webkit-touch-callout: none;
     --plyr-color-main: #fff;
     --plyr-video-control-color-hover: $c1;
-    background-color: #171717;
+    background-color: transparent;
     font-family: Gotham;
     overflow: hidden;
     -webkit-user-select: none;
@@ -2070,7 +2070,7 @@ body.active {
 }
 
 body .sitle-site {
-    color: #171717;
+    color: transparent;
     display: block;
     font-size: 2px;
     left: 0;
@@ -2263,7 +2263,7 @@ h6 {
 input,
 select,
 textarea {
-    -webkit-appearance: none;
+  
     background-color: transparent;
     border: 0;
     border-bottom: 1px solid #fff;
@@ -2317,7 +2317,7 @@ textarea {
 }
 
 .load-cont .bg-color {
-    background-color: #171717;
+    background-color: #0a0611;
     height: 100%;
     position: absolute;
     width: 100%
@@ -2960,11 +2960,7 @@ textarea {
     transition: .15s cubic-bezier(.4, 0, 1, 1)
 }
 
-.menu-cont .relav .lang-xs .menu-li:hover .sub-options {
-    /* opacity: 1;
-    pointer-events: auto;
-    transition: .15s cubic-bezier(.4, 0, 1, 1) */
-}
+
 
 .menu-cont .relav .lang-xs .menu-li:hover .sub-options:hover {
     pointer-events: auto
@@ -3087,7 +3083,7 @@ textarea {
 
 .menu-cont .relav .menu-options .menu-li .sub-options p {
     -webkit-touch-callout: none;
-    background-color: #212322;
+    background-color: black;
     color: #fff;
     cursor: pointer;
     font-size: 15px;
@@ -4905,7 +4901,7 @@ textarea {
 }
 
 [data-controller=cine-contenido] .doc-cont .columns .bg1 {
-    background: url(../img/galapagos.jpg);
+    background: url(../img/thumb4.png);
     filter: grayscale(100%);
     transition: .25s cubic-bezier(.4, 0, 1, 1)
 }
@@ -4916,8 +4912,8 @@ textarea {
 }
 
 [data-controller=cine-contenido] .doc-cont .columns .bg2 {
-    background: url(../img/from-core-to-sun.jpg);
-    background-position: 100% !important;
+    background: url(../img/thumb3.png);
+ 
     filter: grayscale(100%);
     transition: .25s cubic-bezier(.4, 0, 1, 1)
 }
@@ -4928,7 +4924,7 @@ textarea {
 }
 
 [data-controller=cine-contenido] .doc-cont .columns .bg3 {
-    background: url(../img/Untitled.jpg);
+    background: url(../img/thumb1.png);
     filter: grayscale(100%);
     transition: .25s cubic-bezier(.4, 0, 1, 1)
 }
@@ -4939,7 +4935,7 @@ textarea {
 }
 
 [data-controller=cine-contenido] .doc-cont .columns .bg4 {
-    background: url(../img/from-core-to-sun10.jpg);
+    background: url(../img/thumb5.png );
     filter: grayscale(100%);
     transition: .25s cubic-bezier(.4, 0, 1, 1)
 }
@@ -8121,7 +8117,7 @@ textarea {
 }
 
 [data-controller=index] .projects-cont .bg-filter {
-    background-color: #171717;
+    background-color: transparent;
     height: 100%;
     left: 0;
     opacity: .3;
@@ -9336,37 +9332,51 @@ textarea {
 }
 
 [data-controller=quienes-somos] .banner-cont .slide-1 {
-    background-image: url(../img/nosotros1.jpg)
+    background-image: url(../img/nosotros1.jpeg);
+    height: 575px;
 }
 
 [data-controller=quienes-somos] .banner-cont .slide-2 {
     background-image: url(../img/nosotros2.jpg);
+    height: 575px;
+
     background-position: 10%
 }
 
 [data-controller=quienes-somos] .banner-cont .slide-3 {
+    height: 575px;
+
     background-image: url(../img/nosotros3.jpg)
 }
 
 [data-controller=quienes-somos] .banner-cont .slide-4 {
+    height: 575px;
+
     background-image: url(../img/nosotros4.jpg)
 }
 
 [data-controller=quienes-somos] .banner-cont .slide-5 {
+    height: 575px;
+
     background-image: url(../img/nosotros5.jpg)
 }
 
 [data-controller=quienes-somos] .banner-cont .slide-6 {
+    height: 575px;
+
     background-image: url(../img/nosotros6.jpg)
 }
 
 [data-controller=quienes-somos] .banner-cont .slide-7 {
+    height: 575px;
+
     background-image: url(../img/nosotros7.jpg)
 }
 
 @media(max-width:575px) {
     [data-controller=quienes-somos] .banner-cont .slide-7 {
         background-image: url(../img/nosotros7-xs.jpg)
+
     }
 }
 
@@ -11902,7 +11912,7 @@ textarea {
 }
 
 [data-controller=spots-publicitarios] .videos-cont .columns .video-ind .bg {
-    background-color: hsla(0, 0%, 9%, .4);
+    /* background-color: hsla(0, 0%, 9%, .4); */
     height: 100%;
     left: 0;
     margin-left: auto;
