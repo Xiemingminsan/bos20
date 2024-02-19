@@ -3,8 +3,8 @@
 
 <head>
 	<title>BOS 10 | Video Production</title>
-	<link rel="icon" href="assets/fav.svg" type="image/x-icon">
-	<link rel="apple-touch-icon" href="assets/fav.svg">
+	<link rel="icon" href="assets/fav.png" type="image/x-icon">
+	<link rel="apple-touch-icon" href="assets/fav.png">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<link rel="manifest" href="assets/manifest.json">
@@ -65,20 +65,20 @@
 				<div class="layers__item-img img1"></div>
 			</div>
 			<div class="layers__item">
-					<div class="layers__item-img img2"></div>
-				</div>
-				<div class="layers__item">
-					<div class="layers__item-img img3"></div>
-				</div>
-				<div class="layers__item">
-					<div class="layers__item-img img4"></div>
-				</div>
-				<div class="layers__item">
-					<div class="layers__item-img img5"></div>
-				</div>
-				<div class="layers__item">
-					<div class="layers__item-img img6"></div>
-				</div>
+				<div class="layers__item-img img2"></div>
+			</div>
+			<div class="layers__item">
+				<div class="layers__item-img img3"></div>
+			</div>
+			<div class="layers__item">
+				<div class="layers__item-img img4"></div>
+			</div>
+			<div class="layers__item">
+				<div class="layers__item-img img5"></div>
+			</div>
+			<div class="layers__item">
+				<div class="layers__item-img img6"></div>
+			</div>
 		</div>
 	</div>
 
@@ -231,6 +231,10 @@
 			</div>
 		</div>
 	</div>
+
+
+
+
 
 
 
@@ -499,7 +503,34 @@
 
 
 
+				<audio id="myAudio" src="assets/fire.mp3"></audio>
 
+				<script>
+					// Track pressed keys
+					const pressedKeys = {};
+			
+					const checkCombination = () => {
+						// Check if 'g', 't', and 'a' are pressed together
+						if (pressedKeys['g'] && pressedKeys['t'] && pressedKeys['a']) {
+							// Play audio if combination is correct
+							document.getElementById('myAudio').play();
+						}
+					};
+			
+					document.addEventListener('keydown', (event) => {
+						// Mark the pressed key as true
+						pressedKeys[event.key] = true;
+						checkCombination(); // Check if the desired combination is pressed
+					});
+			
+					document.addEventListener('keyup', (event) => {
+						// Mark the released key as false
+						pressedKeys[event.key] = false;
+					});
+			
+				</script>
+			
+			
 
 
 
@@ -528,7 +559,7 @@
 								<p>Specializing in commercials, films, digital content, and corporate videos. Your
 									vision, our mission</p>
 
-								<a href="services.html" class="btn-know">Know More</a>
+								<a href="Services.html" class="btn-know">Know More</a>
 							</div>
 
 						</div>

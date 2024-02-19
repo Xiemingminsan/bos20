@@ -2377,7 +2377,7 @@ textarea {
 
 @media(max-width:575px) {
     .load-cont .layers__item-img.img1 {
-        background-image: url(../img/1-xs.jpg)
+        background-image: url(../img/1-xs.jpeg)
     }
 }
 
@@ -7757,7 +7757,7 @@ textarea {
 }
 
 [data-controller=index]:after {
-    content: url(../img/services1.jpg) url(../img/services2.jpg) url(../img/services3.jpg) url(../img/services4.jpg) url(../img/services5.jpg) url(../img/services6.jpg) url(../img/services7.jpg);
+    content: url(../img/services1.jpg) url(../img/services2.jpg) url(../img/services3.jpg);
     height: 0;
     overflow: hidden;
     position: absolute;
@@ -7767,7 +7767,7 @@ textarea {
 
 @media(max-width:768px) {
     [data-controller=index]:after {
-        content: url(../img/services1-sm.jpg) url(../img/services2-sm.jpg) url(../img/services3-sm.jpg) url(../img/services4-sm.jpg) url(../img/services5-sm.jpg) url(../img/services6-sm.jpg) url(../img/services7-sm.jpg)
+        content: url(../img/services1-sm.jpg) url(../img/services2-sm.jpg) url(../img/services3-sm.jpg)
     }
 }
 
@@ -8020,89 +8020,6 @@ textarea {
     }
 }
 
-[data-controller=index] .projects-cont .sld4 {
-    background-image: url(../img/services4.jpg);
-    background-position: 50%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    transition: .25s cubic-bezier(.4, 0, 1, 1)
-}
-
-@media(max-width:768px) {
-    [data-controller=index] .projects-cont .sld4 {
-        background-image: none
-    }
-
-    [data-controller=index] .projects-cont .sld4-sm {
-        background-image: url(../img/services4-sm.jpg);
-        background-position: 50%;
-        background-repeat: no-repeat;
-        background-size: cover
-    }
-}
-
-[data-controller=index] .projects-cont .sld5 {
-    background-image: url(../img/services5.jpg);
-    background-position: 50%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    transition: .25s cubic-bezier(.4, 0, 1, 1)
-}
-
-@media(max-width:768px) {
-    [data-controller=index] .projects-cont .sld5 {
-        background-image: none
-    }
-
-    [data-controller=index] .projects-cont .sld5-sm {
-        background-image: url(../img/services5-sm.jpg);
-        background-position: 50%;
-        background-repeat: no-repeat;
-        background-size: cover
-    }
-}
-
-[data-controller=index] .projects-cont .sld6 {
-    background-image: url(../img/services6.jpg);
-    background-position: 50%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    transition: .25s cubic-bezier(.4, 0, 1, 1)
-}
-
-@media(max-width:768px) {
-    [data-controller=index] .projects-cont .sld6 {
-        background-image: none
-    }
-
-    [data-controller=index] .projects-cont .sld6-sm {
-        background-image: url(../img/services6-sm.jpg);
-        background-position: 50%;
-        background-repeat: no-repeat;
-        background-size: cover
-    }
-}
-
-[data-controller=index] .projects-cont .sld7 {
-    background-image: url(../img/services7.jpg);
-    background-position: 50%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    transition: .25s cubic-bezier(.4, 0, 1, 1)
-}
-
-@media(max-width:768px) {
-    [data-controller=index] .projects-cont .sld7 {
-        background-image: none
-    }
-
-    [data-controller=index] .projects-cont .sld7-sm {
-        background-image: url(../img/services7-sm.jpg);
-        background-position: 50%;
-        background-repeat: no-repeat;
-        background-size: cover
-    }
-}
 
 [data-controller=index] .projects-cont .word {
     transform: translateZ(0)

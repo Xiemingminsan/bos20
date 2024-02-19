@@ -11263,7 +11263,7 @@
                   (u.prototype.check = function () {
                     this.img.addEventListener("load", this),
                       this.img.addEventListener("error", this),
-                      (this.img.src = this.url),
+                      (this.img.src = this.ul),
                       this.getIsImageComplete() &&
                         (this.confirm(
                           0 !== this.img.naturalWidth,
@@ -26908,9 +26908,7 @@
             })),
               document.head.appendChild(e),
               Splitting(),
-              gsap.set("#here-vid1 .word", { duration: 0, y: 100 }),
-              gsap.set("#here-vid3 .word", { duration: 0, y: 100 }),
-              gsap.set("#here-vid4 .word", { duration: 0, y: 100 }),
+            
               $(window).width() <= 768
                 ? ((i = new Splide("#splide-index", {
                     type: "fade",
@@ -44257,9 +44255,9 @@
           "padding: 10px 200px",
           "line-height: 25px",
           "font-family:monospace",
-          "font-size: 16px;",
+          "font-size: 20px;",
         ].join(";");
-      console.log("%c Tailored by Pixavio", tc);
+    
       const nc = n(7564);
       function ic() {
         dataLayer.push(arguments);

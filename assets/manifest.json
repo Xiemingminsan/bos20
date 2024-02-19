@@ -2,7 +2,7 @@
   "name": "BOS 10 Video Production",
   "short_name": "BOS 10",
   "icons": [{
-    "src": "assets/fav.svg",
+    "src": "assets/fav.png",
     "sizes": "512x512",
     "type": "image/png"
   }],
